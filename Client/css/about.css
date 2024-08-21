@@ -1,0 +1,50 @@
+.about-container {
+    margin-top: 4%;
+    padding: 20px;
+    background-color: #f7f4ea; /* צבע רקע */
+   
+    font-family: 'Alef', sans-serif; /* משפחת הגופן */
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  
+  .about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20%;
+    margin-top: 20%;
+  
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .about-image {
+      margin-bottom: 20px;
+    }
+  }

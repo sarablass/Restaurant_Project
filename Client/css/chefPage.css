@@ -1,0 +1,275 @@
+.orders-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
+
+.order-item {
+    position: relative; /* Ensure relative positioning */
+    border-radius: 8px;
+    padding: 35px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    min-height: 350px; /* Set a minimum height to ensure consistency */
+    font-family: 'Alef', sans-serif; /* משפחת הגופן */
+    margin-bottom: 15%;
+}
+
+.paper-clip-image {
+    position: absolute;
+    top: -30px; /* Adjust as needed to place above the order */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; /* Ensure it's above other content */
+    width: 35px;
+    height: 35px;
+}
+
+
+/* .title-idChef {
+text-align: center;
+} */
+
+.chef-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-top: 50px;
+}
+
+.order-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.order-item h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.order-item p {
+    margin: 8px 0;
+    color: #555;
+}
+
+.order-button {
+    display: block;
+    width: 100%;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8d78f;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 65px;
+    font-weight: bold;
+    
+}
+
+.order-button:hover {
+    background-color: #e67e22;
+}
+
+.order-button:active {
+    background-color: #d35400;
+}
+
+.status-graph {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%; /* Adjust width */
+}
+
+.status-point {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+}
+
+.status-point.active {
+    background-color: #fff;
+    border: 3.5px solid #333;
+}
+
+.status-line {
+    flex-shrink: 0;
+    width: 80px; /* Adjust width of the line to be longer */
+    height: 2px;
+    background-color: #ddd;
+    z-index: 0;
+    /* Adjust margins for better spacing */
+}
+
+.status-line.active {
+    background-color: #333; /* Active line color */
+}
+
+.status-label {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+
+.status-time {
+    position: absolute;
+    top: 45px; /* Adjusted position */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 10px; /* Reduced font size */
+    color: #333;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .orders-list {
+        grid-template-columns: repeat(1, 1fr); /* Switch to single column layout */
+    }
+    
+    .order-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .orders-list {
+        grid-template-columns: repeat(2, 1fr); /* Switch to two columns layout */
+    }
+}
+
+.second-button {
+    display: block;
+    width: 400%; /* להתאים את הרוחב כך שיהיה 50% מהמרחק */
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8c08f;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 65px;
+    font-weight: bold;
+}
+
+.second-button:hover {
+    background-color: #e67e22;
+}
+
+.second-button:active {
+    background-color: #0d47a1;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35%;
+    width: 100%;
+}
+
+.order-button, .second-button {
+    flex: 1; /* כדי לוודא שהכפתורים יקחו את אותו רוחב */
+    margin: 0 5px; /* מרווח קטן בין הכפתורים */
+}
+
+
+.order-details-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.order-details-popup {
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 390px;
+    width: 80%;
+    max-height: 85%;
+    overflow-y: auto;
+}
+
+.order-details-content {
+    padding: 20px;
+    text-align: right;
+}
+
+.dish-item {
+    margin-bottom: 10px;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.close-btn {
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.order-details {
+    list-style-type: none;
+}
+
+.dish-image-table {
+    width: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 190px;
+    margin-bottom: 70px;
+}
+
+.dish-image-table img {
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+
+.bold {
+    font-weight: bold;
+    font-size: larger;
+}
+

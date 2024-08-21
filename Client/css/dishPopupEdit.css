@@ -1,0 +1,108 @@
+.dish-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.dish-popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  max-width: 90%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  text-align: center;
+}
+
+.dish-popup-dish-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.dish-popup-dish-details {
+  margin-bottom: 15px;
+}
+
+.dish-popup-dish-name,
+.dish-popup-dish-remarks,
+.dish-popup-dish-price {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dish-popup-dish-remarks {
+  height: 80px;
+  resize: none;
+}
+
+.dish-popup-dish-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dish-popup-add-to-cart {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.dish-popup-add-to-cart:hover {
+  background-color: #444;
+}
+
+.dish-popup-close,
+.dish-popup-save {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.dish-popup-save {
+  background-color: #4f937e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.dish-popup-save:hover {
+  background-color: #46826f;
+}
+
+.dish-popup-dish-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.dish-popup-image-input {
+  margin-top: 10px;
+}
+
+.dish-popup-dish-image-preview {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}

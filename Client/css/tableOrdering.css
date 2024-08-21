@@ -1,0 +1,180 @@
+.table-ordering-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Alef', sans-serif;
+}
+
+.table-ordering-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  /* background-color: #f8f9fa;
+  padding: 10px;
+  padding-left: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.table-ordering-form .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Alef', sans-serif;
+  background-color: white;
+  padding: 4px;
+  border: 2px solid rgb(150, 172, 167);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(82, 151, 158, 0.1);
+  min-width: 200px;
+  text-align: center;
+  position: relative;
+}
+
+.table-ordering-form label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-ordering-form select {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+}
+
+.table-ordering-form select:focus {
+  outline: none;
+}
+
+.option-icon {
+  font-size: 24px;
+  color: #e67e22;
+}
+
+.table-ordering-form button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.table-ordering-form button:hover {
+  background-color: #2980b9;
+}
+
+.available-tables {
+  margin-top: 20px;
+  width: 100%; /* Ensure it takes the full width */
+}
+
+.tables-section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.section-title .icon {
+  margin-right: 180px;
+  height: 30px; /* Adjust the height as needed */
+  width: 30px; /* Adjust the width as needed */
+  vertical-align: middle;
+  fill: black; /* Ensure the fill color is black */
+}
+
+.tables-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-right: 180px;
+}
+
+.table-card {
+  background-color: #fff;
+  border: 1px solid #bdc3c7;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 130px; /* Adjusted width */
+  text-align: center;
+}
+
+.table-ordering-title {
+  font-size: 38px;
+  margin-bottom: 20px;
+  margin-top: 17px;
+  font-family: 'Alef', sans-serif;
+}
+
+.option-day-table-ordering {
+  font-size: large;
+  width: 100%;
+}
+
+.checking-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Alef', sans-serif;
+  background-color: rgb(123, 162, 153);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 120px;
+  text-align: center;
+  position: relative;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.table-ordering-form select option {
+  font-size: 22px;
+  font-family: 'Alef', sans-serif;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.table-ordering-form .form-group {
+  min-width: 350px; /* Ensure the container is wide enough */
+}
+
+.table-ordering-form .form-group select {
+  width: 270%; /* Ensure select element takes full width */
+}
+
+.pic-wine{
+  width: 1400px;
+  height: 260px;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+}
+
+
+
+
+

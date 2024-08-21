@@ -1,0 +1,174 @@
+.cu-page {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+  background-color: #f9f4ee;
+  padding: 20px;
+  margin-top: 20%;
+  gap: 250px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cu-form-container {
+  width: 600%; /* Make the form container full width */
+  padding: 40px;
+  padding-left: 130px;
+  background-color: #dde5e1c8;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.cu-right-side {
+  width: 30%; /* Make the right side container full width */
+  padding: 20px;
+  text-align: right;
+  margin-top: 2%;
+}
+
+.cu-title {
+  font-size: 28px;
+  color: #374a3a;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.cu-contact-info {
+  font-size: 16px;
+  color: #374a3a;
+}
+
+.cu-contact-item {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: auto;
+  
+   /* Align items to the right */
+}
+
+.cu-icon, .cu-social-icon {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.cu-social-link {
+  color: #374a3a;
+  cursor: pointer;
+}
+
+.cu-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Make the form full width */
+ 
+}
+
+.cu-form-group {
+  margin-bottom: 15px;
+  position: relative;
+  
+}
+
+.cu-label {
+  font-size: 14px;
+  color: #374a3a;
+  margin-bottom: 5px;
+  display: block;
+  
+}
+
+.cu-input-line {
+  width: 140%; /* Make the input lines full width */
+  border: none;
+  border-bottom: 1px solid #374a3a;
+  padding: 1px 0;
+  font-size: 16px;
+  background-color: transparent;
+  color: #374a3a;
+  text-align: right;
+}
+
+.cu-input-line::placeholder {
+  color: #374a3a;
+  text-align: right;
+}
+
+.cu-textarea {
+  height: 30px;
+  resize: none;
+}
+
+.cu-file-upload {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.cu-file-label {
+  cursor: pointer;
+  color: #374a3a;
+}
+
+.cu-file-input {
+  display: none;
+}
+
+.cu-submit-button {
+  background-color: #394b3c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 17px;
+  width: 140%;
+}
+
+.cu-select option{
+  background-color: #dde5e1c8;
+}
+.cu-select option:hover {
+  background-color: #083b21c8;
+  
+}
+.cu-checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cu-checkbox input {
+  margin-left: 10px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #2f4f4f;
+  color: white;
+  padding: 20px 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-contact-info {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.footer-phone, .footer-email {
+  margin: 0 10px;
+}

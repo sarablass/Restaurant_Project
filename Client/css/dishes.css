@@ -1,0 +1,64 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.dish-type {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dishes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dish {
+  margin: 9px;
+  padding: 10px;
+  width: 330px;
+  text-align: center;
+}
+
+.dish-image {
+  width: 325px;
+  height: 330px;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+  border-radius: 9px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.dish-details {
+  padding: 12px;
+  text-align: right;
+}
+
+.dish-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dish-header h3 {
+  margin: 0;
+  font-size: 22px;
+  font-family: 'Alef', sans-serif;
+}
+.dish-details p {
+  font-size: 1em; /* Increase the font size of the dish remarks */
+  font-family: 'Alef', sans-serif;
+}
+.dish-price {
+  margin: 0;
+}
+
+.title-dishType {
+  font-size: 38px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  font-family: 'Alef', sans-serif;
+}

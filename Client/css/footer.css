@@ -1,0 +1,134 @@
+html, body {
+    
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 235);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .contact-footer {
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: auto;
+}
+
+.contact-container {
+    background-color: #a8d0c3;
+    padding: 20px;
+    border-radius: 10px;
+ 
+}
+
+.contact-container h2 {
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    margin: 10px 0;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.contact-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #808080;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-container button:hover {
+    background: #606060;
+} */
+
+
+
+.footer {
+    background-color: #a8d0c3;
+    color: #000;
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    /* margin-bottom: 5px; */
+    width: 100%;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+.footer-section h2, .footer-section ul, .footer-section p {
+    margin: 10px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+}
+
+.footer-logo img {
+    width: 100px;
+    margin: 10px 0;
+}
+
+.footer-logo p {
+    margin: 5px 0;
+}
+
+.footer-section-footer-logo {
+    margin-top: 140px;
+}

@@ -1,0 +1,19 @@
+.personal-area-navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f0f0f0 ;
+    padding: 10px 20px;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin-top: 10px; /* Add margin to separate from the top navbar */
+}
+
+.personal-area-navbar .nav-item {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}

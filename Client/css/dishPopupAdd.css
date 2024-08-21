@@ -1,0 +1,146 @@
+.dish-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .dish-popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    text-align: center;
+  }
+  
+  .dish-popup-dish-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .dish-popup-dish-details {
+    margin-bottom: 15px;
+  }
+  
+  .dish-popup-dish-name,
+  .dish-popup-dish-remarks,
+  .dish-popup-dish-price {
+    width: calc(100% - 20px); /* Adjusted width */
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .dish-popup-dish-price {
+    width: calc(100% - 20px); /* Adjusted width */
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 2%;
+  }
+  
+  .dish-popup-dish-remarks {
+    height: 80px;
+    resize: none;
+  }
+  
+  .dish-popup-add-to-cart {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  
+  .dish-popup-add-to-cart:hover {
+    background-color: #444;
+  }
+  
+  .dish-popup-close,
+  .dish-popup-save {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 2%;
+  }
+  
+  .dish-popup-save {
+    background-color: #4f937e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .dish-popup-save:hover {
+    background-color: #46826f;
+  }
+  
+  .dish-popup-dish-image-preview {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .dish-popup-dish-footer label {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .dish-popup-dish-footer input[type="checkbox"] {
+    margin-right: 18px;
+    transform: scale(1.5); /* Adjust checkbox size */
+  }
+  
+  .dish-popup-dish-footer div {
+    width: calc(100% - 20px); /* Adjusted width */
+    display: flex;
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .checkBox-gluten {
+    margin: 12px;
+  }
+
+  .dish-popup-checkboxes {
+    margin-left: 2%;
+  }
+  
+  .dish-popup-image-preview {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .dish-popup-image-preview {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .lbl-checkGlu {
+    margin-right: 10px;
+  }
+  
+  .dish-popup-dish-image-file {
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
